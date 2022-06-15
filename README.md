@@ -27,3 +27,6 @@ PK : Primary Key의 약자이며, 테이블에서 반드시 존재해야 한다.
 
 
 4. django에서 queryset과 object는 어떻게 다른지 서술하기
+queryset은 ORM을 통해 DB에 접속해서 가져온 데이터들이다.
+Python으로 작성한 코드가 SQL로 mapping되어 querySet이라는 자료 형태로 값이 넘어온다.
+ORM이란 데이터베이스의 테이블을 객체(Object)와 연결하여 테이블에 CRUD를 할 때, SQL 쿼리를 사용하지 않고도, 가능하게 하는 것.
